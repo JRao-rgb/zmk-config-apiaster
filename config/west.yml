@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: nmunnich
+      url-base: https://github.com/nmunnich
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/manifest/zephyr/west.yml
+    - name: zmk-apiaster-module
+      remote: nmunnich
+      revision: main
+  self:
+    path: config
