@@ -8,9 +8,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/manifest/zephyr/west.yml
+      import: app/west.yml
     - name: zmk-apiaster-module
       remote: nmunnich
-      revision: 4279902af1c2130ab1a2ec23e916239b090780ff
+      revision: main
   self:
     path: config
