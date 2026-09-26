@@ -11,6 +11,6 @@ manifest:
       import: app/manifest/zephyr/west.yml
     - name: zmk-apiaster-module
       remote: nmunnich
-      revision: main
+      revision: 4279902af1c2130ab1a2ec23e916239b090780ff
   self:
     path: config
